@@ -1,0 +1,66 @@
+body 
+{
+    background-image: radial-gradient(circle, #0565f6, #00a2fe, #00c9da, #a1e6c9, #f9ffed);
+}
+h1 
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper 
+{
+    margin-left: 180px;
+}
+.wrapper-image img
+{
+    width: fit-content;
+    width: auto;
+    border-radius: 50%;
+}
+/* .wrapper-one-child 
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem, 1rem;
+    color: black;
+} */
+.wrapper-contact-info 
+{
+    margin-left: 170px;
+    width: fit-content;
+    margin-top: 40px;
+}
+.wrapper-contact-info p 
+{
+    color: black;
+    font-size: 18px;
+}
+.wrapper-contact-info h2 
+{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -16px;
+}
+.wrapper-contact-info a 
+{
+    padding-left: 4px;
+}
+.wrapper-text-area 
+{
+    text-align: center;
+}
+.text-area 
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem, 1rem;
+    color: black;
+    font-size: larger;
+    font-style: italic;
+    padding-left: 50px;
+}
