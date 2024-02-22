@@ -12,26 +12,20 @@ h2
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.wrapper 
+.wrapper-flex-container 
 {
-    margin-left: 180px;
+    
+    display: flex;
+    justify-content: space-around;
 }
 .wrapper-image img
 {
-    width: fit-content;
-    width: auto;
+    
+    width: 250px;
     border-radius: 50%;
 }
-/* .wrapper-one-child 
-{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 1rem, 1rem;
-    color: black;
-} */
 .wrapper-contact-info 
 {
-    margin-left: 170px;
     width: fit-content;
     margin-top: 40px;
 }
@@ -63,4 +57,26 @@ h2
     font-size: larger;
     font-style: italic;
     padding-left: 50px;
+}
+
+.flex-container 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-container div 
+{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.footer-text 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+
 }
